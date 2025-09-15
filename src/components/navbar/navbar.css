@@ -1,0 +1,35 @@
+header {
+  background-color: var(--secondaryBackgroundColor);
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 10vh;
+  color: var(--primaryFontColor);
+}
+
+header .header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+header nav {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--primaryFontColor);
+}
