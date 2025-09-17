@@ -1,0 +1,21 @@
+.buttons-container {
+  display: flex;
+  gap: 40px;
+}
+.buttons-container .btn {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.buttons-container .btn-primary {
+  background-color: var(--colorRed);
+  color: white;
+}
+.buttons-container .btn-secondary {
+  background-color: var(--colorGolden);
+  color: white;
+}

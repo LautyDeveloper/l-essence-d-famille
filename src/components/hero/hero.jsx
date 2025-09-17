@@ -16,8 +16,8 @@ export default function Hero({
         <h1>{title}</h1>
         <span className="accent-color">{phrase}</span>
         <p>{parragraph}</p>
-        {home ? <Buttons btn1Text={btn1Text} btn2Text={btn2Text} /> : null}
       </div>
+      {home ? <Buttons btn1Text={btn1Text} btn2Text={btn2Text} /> : null}
     </div>
   );
 }
