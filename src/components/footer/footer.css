@@ -13,7 +13,7 @@ footer .footer-content {
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  padding: 30px 60px 30px 60px;
+  padding: 80px 60px 40px 60px;
 }
 .footer-content .footer-presentation {
   display: flex;
@@ -131,7 +131,7 @@ footer .footer-content {
 }
 
 footer .footer-copy {
-  padding: 30px 60px 30px 60px;
+  padding: 40px 60px 40px 60px;
   border-top: 2px solid rgb(167, 167, 167);
   width: 100%;
   display: grid;

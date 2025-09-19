@@ -7,7 +7,7 @@
   align-items: center;
   text-align: center;
   gap: 40px;
-  padding: 30px 60px 0px 60px;
+  padding: 80px 60px 0px 60px;
   background-color: var(--principalBackgroundColor);
 }
 .hero-container .hero-logo {
