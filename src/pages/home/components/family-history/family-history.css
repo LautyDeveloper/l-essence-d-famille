@@ -4,6 +4,7 @@
   align-items: center;
   padding: 80px 60px;
   gap: 50px;
+  background-color: var(--secondaryBackgroundColor);
 }
 
 #family-history .family-history-info {

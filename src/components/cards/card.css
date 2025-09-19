@@ -9,6 +9,7 @@
   padding: 40px 10px;
   border-radius: 20px;
   border: 1px solid var(--borderColor);
+  background-color: var(--secondaryBackgroundColor);
 }
 .big-card {
   width: 700px;
@@ -19,7 +20,7 @@
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background-color: var(--colorGolden);
+  background-color: var(--principalBackgroundColor);
 }
 
 .big-card .card-icon-container {

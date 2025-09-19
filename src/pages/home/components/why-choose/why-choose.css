@@ -1,17 +1,19 @@
-#family-history-container {
+#why-choose-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 80px 60px;
   gap: 60px;
+  background-color: var(--principalBackgroundColor);
 }
-#family-history-container h2 {
+#why-choose-container h2 {
   font-size: 3rem;
   text-align: center;
+  color: var(--colorBrown);
 }
 
-#family-history-container .family-history-cards-container {
+#why-choose-container .why-choose-cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
