@@ -1,0 +1,39 @@
+.card {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--borderColor);
+}
+.card .card-icon-container {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: var(--colorGolden);
+}
+.card .card-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 15px;
+}
+.card .card-text-container h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--colorBrown);
+}
+.card .card-text-container p {
+  font-size: 1.2rem;
+  color: var(--colorBrown);
+  width: 70%;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../layout/layout";
+import WhyChoose from "./components/why-choose/why-choose";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       home={true}
       btn1Text={"Ver Catalogo"}
       btn2Text={"Tubitos 35 ML"}
-    ></Layout>
+    >
+      <WhyChoose />
+    </Layout>
   );
 }

@@ -1,0 +1,19 @@
+#family-history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 60px;
+}
+#family-history-container h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#family-history-container .family-history-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
