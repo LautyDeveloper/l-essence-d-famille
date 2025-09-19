@@ -10,6 +10,9 @@
   border-radius: 20px;
   border: 1px solid var(--borderColor);
 }
+.big-card {
+  width: 700px;
+}
 .card .card-icon-container {
   width: 100px;
   height: 100px;
@@ -17,6 +20,11 @@
   place-items: center;
   border-radius: 50%;
   background-color: var(--colorGolden);
+}
+
+.big-card .card-icon-container {
+  width: 150px;
+  height: 150px;
 }
 .card .card-text-container {
   display: flex;

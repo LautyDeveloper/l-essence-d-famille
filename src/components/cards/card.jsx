@@ -1,9 +1,9 @@
 import React from "react";
 import "./card.css";
 
-export default function Card({ title, description, icon }) {
+export default function Card({ title, description, icon, isBigCard }) {
   return (
-    <div className="card">
+    <div className={isBigCard ? "card big-card" : "card"}>
       <div className="card-icon-container">{icon}</div>
       <div className="card-text-container">
         <h3>{title}</h3>

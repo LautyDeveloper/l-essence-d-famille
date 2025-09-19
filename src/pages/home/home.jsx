@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../layout/layout";
+import FamilyHistory from "./components/family-history/family-history";
 import WhyChoose from "./components/why-choose/why-choose";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       btn1Text={"Ver Catalogo"}
       btn2Text={"Tubitos 35 ML"}
     >
+      <FamilyHistory />
       <WhyChoose />
     </Layout>
   );
