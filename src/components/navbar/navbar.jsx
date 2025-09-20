@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import { WhatsAppButton } from "../social-buttons/social-buttons";
 
 export default function Navbar() {
   return (
@@ -36,7 +37,7 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-      <button className="header-button">WhatsApp</button>
+      <WhatsAppButton />
     </header>
   );
 }

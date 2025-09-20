@@ -1,5 +1,9 @@
 import React from "react";
 import "./footer.css";
+import {
+  WhatsAppButton,
+  InstagramButton,
+} from "../../components/social-buttons/social-buttons.jsx";
 export default function Footer() {
   return (
     <footer>
@@ -49,8 +53,8 @@ export default function Footer() {
           <div className="contact-social">
             <span className="accent-color">Contacto</span>
             <div className="social-buttons">
-              <button>WhatsApp</button>
-              <button>Instagram</button>
+              <WhatsAppButton />
+              <InstagramButton />
             </div>
           </div>
           <div className="contact-bussines">
