@@ -1,5 +1,5 @@
 header {
-  background-color: var(--principalBackgroundColor);
+  background-color: var(--secondaryBackgroundColor);
   max-width: 100vw;
   display: flex;
   justify-content: space-between;
