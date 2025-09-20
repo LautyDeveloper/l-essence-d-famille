@@ -1,0 +1,23 @@
+#lets-go-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 80px 100px;
+  color: var(--colorBrown);
+}
+
+#lets-go-container .lets-go-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#lets-go-container .lets-go-text h3 {
+  font-size: 3rem;
+}
+#lets-go-container .lets-go-text p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}

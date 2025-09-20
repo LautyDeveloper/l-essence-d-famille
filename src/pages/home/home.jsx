@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../../layout/layout";
 import FamilyHistory from "./components/family-history/family-history";
 import WhyChoose from "./components/why-choose/why-choose";
+import LetsGo from "./components/lets-go/lets-go";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     >
       <FamilyHistory />
       <WhyChoose />
+      <LetsGo />
     </Layout>
   );
 }
