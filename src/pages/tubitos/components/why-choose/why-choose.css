@@ -1,0 +1,9 @@
+#why-choose-container {
+  background-color: var(--secondaryBackgroundColor);
+  flex-direction: column;
+}
+
+.why-choose-cards-container {
+  flex-wrap: wrap;
+  gap: 30px;
+}
