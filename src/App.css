@@ -1,3 +1,14 @@
 .accent-color {
   color: var(--colorGolden);
 }
+
+.section {
+  display: flex;
+  align-items: center;
+  padding: 80px 100px;
+}
+
+.title-section {
+  color: var(--colorBrown);
+  font-size: 3rem;
+}

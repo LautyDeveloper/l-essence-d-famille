@@ -1,16 +1,10 @@
 #why-choose-container {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 100px;
   gap: 60px;
   background-color: var(--principalBackgroundColor);
 }
 #why-choose-container h2 {
-  font-size: 3rem;
   text-align: center;
-  color: var(--colorBrown);
 }
 
 #why-choose-container .why-choose-cards-container {

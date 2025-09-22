@@ -3,9 +3,9 @@ import "./family-history.css";
 import Card from "../../../../components/cards/card.jsx";
 export default function FamilyHistory() {
   return (
-    <div id="family-history">
+    <div id="family-history" className="section">
       <div className="family-history-info">
-        <h2>Una Historia de Familia</h2>
+        <h2 className="title-section">Una Historia de Familia</h2>
         <div className="info-parragraphs">
           <p>
             L'Essence de Famille nace de la unión entre generaciones. Santiago,
