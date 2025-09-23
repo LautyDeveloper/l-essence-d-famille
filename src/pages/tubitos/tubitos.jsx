@@ -3,6 +3,7 @@ import Layout from "../../layout/layout";
 import "./tubitos.css";
 import WhyChoose from "./components/why-choose/why-choose";
 import HowWorks from "./components/how-works/how-works";
+import ReadyFor from "./components/ready-for/ready-for";
 
 export default function Tubitos() {
   return (
@@ -18,6 +19,7 @@ export default function Tubitos() {
     >
       <WhyChoose />
       <HowWorks />
+      <ReadyFor />
     </Layout>
   );
 }

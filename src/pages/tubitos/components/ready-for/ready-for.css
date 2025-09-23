@@ -1,0 +1,19 @@
+#ready-for-container {
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--secondaryBackgroundColor);
+}
+
+#ready-for-container .ready-for-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+#ready-for-container .ready-for-text p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 70%;
+}
