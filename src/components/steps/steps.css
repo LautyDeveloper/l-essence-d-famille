@@ -1,0 +1,40 @@
+.step-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 250px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid var(--borderColor);
+  gap: 30px;
+  color: var(--colorBrown);
+}
+
+.step-card .step-number {
+  font-size: 2rem;
+  background-color: var(--colorGolden);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.step-card .step-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+}
+.step-card .step-text h4 {
+  font-size: 1.6rem;
+}
+
+.step-card .step-text p {
+  font-size: 1.2rem;
+}

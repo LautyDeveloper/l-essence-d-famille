@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../../layout/layout";
 import "./tubitos.css";
 import WhyChoose from "./components/why-choose/why-choose";
+import HowWorks from "./components/how-works/how-works";
 
 export default function Tubitos() {
   return (
@@ -16,6 +17,7 @@ export default function Tubitos() {
       btn2Text={null}
     >
       <WhyChoose />
+      <HowWorks />
     </Layout>
   );
 }

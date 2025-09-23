@@ -1,0 +1,12 @@
+#how-works-container {
+  flex-direction: column;
+  background-color: var(--principalBackgroundColor);
+  gap: 40px;
+}
+
+.how-works-steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
