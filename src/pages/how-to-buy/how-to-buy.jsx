@@ -12,7 +12,7 @@ export default function HowToBuy() {
       }
       home={false}
       btn1Text={null}
-      btn2Text={null}
+      btn2Text={"Hola"}
     ></Layout>
   );
 }
